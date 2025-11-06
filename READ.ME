@@ -1,1 +1,45 @@
+# 🧠 Make.com + BrowserAct Integration Guide
+
+## 📂 Project Overview
+
+This repository connects **BrowserAct automation templates** with **Make.com** or **n8n** workflows. It allows you to scrape business data (like names, websites, and emails) and automate outreach via integrated systems.
+
+## 🚀 How It Works
+
+1. **BrowserAct** scrapes business details from online sources (e.g., Google Maps, Yelp).
+2. **Make.com** or **n8n** automates email collection and workflow execution.
+3. **Collected data** is stored in your Make.com Data Store or Google Sheets.
+4. **Email automation** or follow-up messages are triggered automatically.
+
+## 🧩 File Descriptions
+
+* **`make_template_link.txt`** → Contains your shared Make.com template link.
+* **`README.md`** → This file (project overview and usage guide).
+* **Other files (e.g., JSON)** → Contain BrowserAct automation templates.
+
+## ⚙️ Setup Instructions
+
+1. **Fork or clone** this repository.
+2. **Create `make_template_link.txt`** and paste your Make.com template link.
+3. **Commit changes** to save your setup.
+4. In **n8n** or **Make.com**, import the template and connect your BrowserAct automation.
+
+## 🔗 Example Template Link
+
+```
+https://www.make.com/template/your-template-link
+```
+
+## 🧰 Integration Flow Example
+
+* BrowserAct → Scrape businesses
+* Make.com → Find emails (via Clearbit/Hunter.io)
+* n8n → Store and automate message sending
+
+## 📞 Support
+
+If you face any issue during integration:
+
+* Contact your project lead
+* Or open an issue in this repo
 
